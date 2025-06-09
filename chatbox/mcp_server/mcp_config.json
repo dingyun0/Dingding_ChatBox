@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "json-resource-server": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "../mcp_server/"
+    }
+  }
+}

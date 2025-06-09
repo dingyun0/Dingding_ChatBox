@@ -1,0 +1,43 @@
+{
+  "profiles": [
+    {
+      "uri": "myapp://profiles/person_a",
+      "name": "张三",
+      "description": "一名专注于Python和人工智能的软件开发工程师。",
+      "mime_type": "application/json",
+      "content": {
+        "age": 30,
+        "gender": "女",
+        "email": "zhangsan@example.com",
+        "skills": ["Python", "机器学习", "数据分析"],
+        "location": "中国北京"
+      }
+    },
+    {
+      "uri": "myapp://profiles/person_b",
+      "name": "李四",
+      "description": "一名擅长大数据和云计算的数据科学家。",
+      "mime_type": "application/json",
+      "content": {
+        "age": 35,
+        "gender": "男",
+        "email": "lisi@example.com",
+        "skills": ["大数据", "云计算", "R语言编程"],
+        "location": "中国上海"
+      }
+    },
+    {
+      "uri": "myapp://profiles/person_c",
+      "name": "王五",
+      "description": "一名具有软件开发背景的项目经理。",
+      "mime_type": "application/json",
+      "content": {
+        "age": 40,
+        "gender": "男",
+        "email": "wangwu@example.com",
+        "skills": ["项目管理", "敏捷开发", "Scrum"],
+        "location": "中国广州"
+      }
+    }
+  ]
+}
