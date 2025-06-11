@@ -1,0 +1,30 @@
+# 忽略 Python 字节码文件
+__pycache__/
+*.py[cod]
+
+# 忽略虚拟环境
+venv/
+.env
+.env.local
+.env.*.local
+
+# 忽略 IDE/编辑器配置文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略 Jupyter Notebook 的输出
+.ipynb_checkpoints
+
+# 忽略测试结果
+coverage/
+*.cover
+*.log
+
+# 忽略其他不需要的文件
+*.DS_Store
+*.egg-info/
+dist/
+build/
+*.egg
