@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 class DataManager:
     def __init__(self):
-        self.data_dir = Path("D:\projects\Dingding_ChatBox\chatbox\mcp_server\data\person_profile")
+        self.data_dir = Path(__file__).parent / "data" / "person_profile"
         self.data = {}
         self.load_json_data()
 
@@ -69,28 +69,6 @@ class DataManager:
                     "联系方式": {
                         "电话": "123-456-7890",
                         "邮箱": "zhangsan@example.com"
-                    }
-                },
-                "李四": {
-                    "姓名": "李四",
-                    "昵称": ["老四", "小四"],
-                    "年龄": 30,
-                    "职业": "设计师",
-                    "爱好": ["绘画", "摄影"],
-                    "联系方式": {
-                        "电话": "098-765-4321",
-                        "邮箱": "lisi@example.com"
-                    }
-                },
-                "王五": {
-                    "姓名": "王五",
-                    "昵称": ["老五", "小五"],
-                    "年龄": 28,
-                    "职业": "教师",
-                    "爱好": ["读书", "旅游", "音乐"],
-                    "联系方式": {
-                        "电话": "555-123-4567",
-                        "邮箱": "wangwu@example.com"
                     }
                 }
             }
